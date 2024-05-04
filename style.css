@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    width: 70%;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.item{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    width:30%;
+}
+
+.posit{
+    font-size:10px;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.description{
+    font-size:14px;
+    color:white;
+}
+
+.timeline{
+    font-size:8px;
+}
+
+.text{
+    width:3px;
+}
+
+.umich{
+    width: 4%;
+    margin: 0.5%;
+}
+
+.image{
+    width: 16%;
+}
+
+.mhacks-image{
+    width: 4%;
+}
+
+.s-docs{
+    width:5%;
+}
+
+.descr{
+    font-size: 18px;
+    color:rgb(209, 207, 207);
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    color: white;
+}
+
+.title{
+    font-size: 6rem;
+    margin:10px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    
+    background-color: #000;
+}
+
+  
+
+.vertical-line {
+    border-left: 2px solid white; /* Adjust the width and color as needed */
+    height: 100px; /* Adjust the height of the line */
+}
+
+canvas {
+    margin:auto;
+}
+body,h1,h2,h3,h4,h5,h6,p,label {
+    font-family: 'Inconsolata';
+    letter-spacing: 1px;
+}
+p, label {
+    font-weight: 100;
+    color: #888;
+    padding-left:0;
+}
+label {
+    font-size: 0.8em;
+    padding-left: 0.5em;
+}
+
+/* MODAL */
+/* The Modal (background) */
+
+/* Modal Content */
+.text {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0.5%;
+  display:flex;
+  align-items: center;
+  padding: 0.5em 1em;
+  color: white;
+  margin-left: 20px;
+  opacity: 0; /* Set initial opacity to 0 */
+  transition: opacity 10s ease; /* Add transition effect */ 
+}
+
+.currently{
+    font-size:1em;
+    color:rgb(209, 207, 207);
+}
+
+.text.fade-in {
+    opacity: 1; /* Change opacity to 1 for fade-in effect */
+}
+
+/* Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Header, Footer */
+/* Body */
