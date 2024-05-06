@@ -1,7 +1,7 @@
-let scl = 30;
+let scl = 32;
 let cols;
 let rows;
-let inc = 0.04; // increment value for perlin noise
+let inc = 0.05; // increment value for perlin noise
 let fr; // frame rate for display
 let zoff = 0;
 let particles = [];
@@ -14,6 +14,7 @@ let startTime;
 function setup() {
   // createCanvas(600, 400);
   document.querySelector('.text').classList.add('fade-in');
+
   createCanvas(windowWidth, windowHeight);
 
   ff = createGraphics(windowWidth, windowHeight); // for displaying flow field
@@ -35,7 +36,7 @@ function seedParticles(num) {
 }
 
 function draw() {
-    if (millis() - startTime < 5500){
+    if (millis() - startTime < 6000){
         //console.log(millis() - startTime);
         let yoff = 0;
         for (let y = 0; y < rows; y++) {

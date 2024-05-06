@@ -90,6 +90,17 @@ body {
     color: white;
 }
 
+.icons{
+    width: 100%;
+    height:10%;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap:3%;
+}
+
+
 .title{
     font-size: 6rem;
     margin:10px;
@@ -100,6 +111,10 @@ body {
     padding:0;
     
     background-color: #000;
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover{
+    cursor: pointer;
 }
 
   

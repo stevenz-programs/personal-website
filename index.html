@@ -19,6 +19,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
+    <script>
+        function ad(){
+            document.querySelector('.icon1').classList.add('fa-beat');
+        }
+
+        function rd(){
+            document.querySelector('.icon1').classList.remove('fa-beat');
+        }
+
+        function ad2(){
+            document.querySelector('.icon2').classList.add('fa-beat');
+        }
+
+        function rd2(){
+            document.querySelector('.icon2').classList.remove('fa-beat');
+        }
+
+        function ad3(){
+            document.querySelector('.icon3').classList.add('fa-beat');
+        }
+
+        function rd3(){
+            document.querySelector('.icon3').classList.remove('fa-beat');
+        }
+    </script>
 </head>
 <body>
     <div class="main">
@@ -27,7 +53,11 @@
             Fasctinated about game theory, algorithms, and AI.
         </p>
         
-        
+        <div class="icons">
+            <a href="mailto:stevenza@umich.edu"><i onmouseover="ad()" onmouseout="rd()" class="fa-regular fa-envelope fa-2xl icon1"></i></a>
+            <a href = "https://www.linkedin.com/in/stevenz-/"><i onmouseover="ad2()" onmouseout="rd2()" class="fa-brands fa-linkedin fa-2xl icon2"></i></a>
+            <a href = "https://github.com/stevenz-programs"><i onmouseover="ad3()" onmouseout="rd3()" class="fa-brands fa-github fa-2xl icon3"></i></a>
+        </div>
        
     </div>
     <div class="text">

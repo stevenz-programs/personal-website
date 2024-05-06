@@ -1,8 +1,8 @@
 function Particle() {
-    this.pos = createVector(floor(random(width)), floor(random(height*8/9)));
+    this.pos = createVector(floor(random(width)), floor(random(height*17/18)));
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
-    this.maxspeed = 4;
+    this.maxspeed = 3.5;
     this.prevPos = this.pos.copy();
   
     this.update = function() {
